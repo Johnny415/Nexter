@@ -30,5 +30,31 @@ There are many useful different <i>CSS</i> techniques and methods that are intro
 I, perosnaly, found very useful techniques how to build responsive layouts using <i>"minmax"</i> functions in combination
 with <i>"auto-fill"</i> and <i>"auto-fit"</i> keywords to achive responsive layouts without writing media queries.
 
+Here is an example:
+
+<img src="img/code-2.jpg">
+
+Screen width 1200px:
+<img src="img/features-2.png">
+
+Screen width 600px:
+
+<img src="img/features.png">
+
 Also, creating complex grid-looking gallery of images is quite easy task with using  <i>"repeat"</i> function for 
 creating as many rows and columns as we need and using <i>"object-fit"</i> property on our images so they don't overflow grid cells,as shown on example below.
+
+
+<img src="img/code.jpg">
+
+<img src="img/gallery-2.jpg" width="900" height="500">
+
+
+Consedering arhitecture of the code, in this project i used <i>BEM</i> methodology, and i also implemented 
+7-1 <i>SASS</i> pattern which is a great way for structuring your files.
+
+### Browser support
+
+In the end i will mention that <i>CSS Grid</i> is supported in all major browsers,but there are some exceptions.
+
+<a href="https://caniuse.com/css-grid">Check here for browser support for CSS Grid</a>
