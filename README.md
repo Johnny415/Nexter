@@ -50,8 +50,23 @@ creating as many rows and columns as we need and using <i>"object-fit"</i> prope
 <img src="img/gallery-2.jpg" width="900" height="500">
 
 
+Another great thing about <i>CSS grid</i> is that we can nest two grids one inside another,which makes our life
+easier when it comes to layout different components, as seen on examples bellow.
+
+On first example we used <i>CSS grid</i> to layout "card" items:
+
+<img src="img/grid-1.png">
+
+
+After that we created another <i>grid</i> inside first one for layout components inside each of the "card":
+
+
+<img src="img/grid-2.png">
+
+
 Consedering arhitecture of the code, in this project i used <i>BEM</i> methodology, and i also implemented 
 7-1 <i>SASS</i> pattern which is a great way for structuring your files.
+<a href="http://getbem.com/introduction/">Learn more about <i>BEM</i> here.</a>
 
 ### Browser support
 
